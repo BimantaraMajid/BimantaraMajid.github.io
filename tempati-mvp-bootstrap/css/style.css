@@ -1,0 +1,202 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+:root {
+    --grey-4: #F3F5F6;
+    --grey-2: #ADB5BD;
+    --bg-light: #F8F9FA;
+    --brand-color: #0F87FF;
+    --black-1: #343A40;
+    --black-2: #495057;
+    --orange-1: #F07632;
+    --success-1: #40D14E;
+
+}
+
+.bg-success-1 {
+    background-color: var(--success-1);
+}
+
+.text-success-1 {
+    color: var(--success-1);
+}
+.bg-brand-color {
+    background-color: var(--brand-color);
+}
+
+.text-brand-color {
+    color: var(--brand-color);
+}
+
+.bg-orange-1 {
+    background-color: var(--orange-1);
+}
+
+.text-orange-1 {
+    color: var(--orange-1);
+}
+
+.bg-grey-4 {
+    background-color: var(--grey-4);
+}
+
+.text-grey-4 {
+    color: var(--grey-4);
+}
+
+.bg-black-1 {
+    background-color: var(--black-1);
+}
+
+.text-black-1 {
+    color: var(--black-1);
+}
+
+.bg-black-2 {
+    background-color: var(--black-2);
+}
+
+.text-black-2 {
+    color: var(--black-2);
+}
+
+.bg-grey-2 {
+    background-color: var(--grey-2);
+}
+
+.text-grey-2 {
+    color: var(--grey-2);
+}
+
+.bg-bg-light {
+    background-color: var(--bg-light);
+}
+
+.text-bg-light {
+    color: var(--bg-light);
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    margin: 0 !important;
+}
+
+.btn {
+    height: 40px;
+    border-radius: 12px;
+}
+
+.form-control {
+    background-color: var(--grey-4);
+    border: 0;
+    border-radius: 12px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form-label{
+    color: var(--black-2);
+}
+
+.title-3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.title-2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.label-m {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.label-r {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.label-b {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.merchant-info {
+    /* height: 311px; */
+    background-color: var(--brand-color);
+    /* padding: 0; */
+}
+
+.merchant-bottom {
+    height: 70px;
+    background-color: var(--brand-color);
+}
+
+.btn-outline {
+    border: 1px;
+    display: block;
+}
+
+.menu-image {
+    width: 60px;
+}
+
+.b0 {
+    border: none;
+}
+
+hr {
+    background-color: grey;
+}
+
+.box-90 {
+    width: 90px;
+    height: 90px;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bot-order {
+    border-radius: 18px;
+    height: 58px;
+    background-color: var(--brand-color);
+}
+
+.bot-review-order {
+    border-radius: 18px;
+    height: 58px;
+    background-color: var(--brand-color);
+}
+
+.row {
+    margin: 0;
+}
+
+.img-fit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+
+}
+
+.radius-12{
+    border-radius: 12px;
+
+}
+
+.list-group-item{
+    background-color: transparent;
+    border: 0;
+}

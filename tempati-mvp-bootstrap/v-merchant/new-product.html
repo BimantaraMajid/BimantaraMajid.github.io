@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Tempati</title>
+</head>
+
+<body>
+
+    <div class="container px-0">
+        <div class="sticky-top merchant-info px-3 py-3">
+            <a class="text-white" href="home.html">
+                <img src="../img/icon-left-arrow.svg" alt="back">
+                <span class="title-2 align-middle ps-2"> Add Product</span>
+            </a>
+        </div>
+
+        <div class="pb-5 pt-3">
+            <div class="col-12 text-center py-5">
+                <img src="../img/menu.svg" alt="image-product" class="box-90">
+                <br>
+                <a href="" class="label-r">Add image</a>
+            </div>
+            <div class="col-12 px-4 pt-3">
+                <form action="home.html">
+                    <div class="mb-3">
+                        <label for="product-name" class="form-label label-m">Product Name</label>
+                        <input type="text" class="form-control" id="product-name" placeholder="Input Name">
+                    </div>
+
+                    <label for="price" class="form-label label-m">Price</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text border border-light bg-grey-4 text-black-50">Rp</span>
+                        <input type="number" class="form-control" id="price" placeholder="Input Price">
+                    </div>
+
+                    <label for="description" class="form-label label-m">Description</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" id="description" style="height: 100px;"></textarea>
+                    </div>
+
+                    <div class="pt-5 text-center d-grid gap-2">
+                        <button class="btn btn-primary bg-brand-color b0">Add Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

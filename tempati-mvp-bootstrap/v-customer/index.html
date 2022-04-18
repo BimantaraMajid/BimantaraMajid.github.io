@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Tempati</title>
+</head>
+
+<body class="bg-light">
+
+    <div class=" container px-0">
+        <div class="sticky-top bg-white shadow-sm py-3 px-2">
+            <span class="title-2 px-2">Merchant Name</span>
+        </div>
+        <div class="pb-5 ">
+
+            <div class="col-12 text-center text-grey-2 p-3">
+                Select your menu
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card radius-12" style="width: 100%;">
+                        <div class="header-img" style="height: 120px;">
+                            <img src="../img/food.jpg" class="card-img-top img-fit" alt="food"
+                            onclick="location.href='menu-detail.html'">
+                        </div>
+                        <div class="card-body">
+                            <div class="label-r">Nasi ayam geprek</div>
+                            <div class="title-2">Rp 15.000</div>
+                            <div class="text-center pt-2">
+                                <button class="btn rounded-pill border px-5 text-orange-1 label-b">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card radius-12" style="width: 100%;">
+                        <div class="header-img" style="height: 120px;">
+                            <img src="../img/food2.jpg" class="card-img-top img-fit" alt="food"
+                            onclick="location.href='menu-detail.html'">
+                        </div>
+                        <div class="card-body">
+                            <div class="label-r">Nasi ayam geprek</div>
+                            <div class="title-2">Rp 15.000</div>
+                            <div class="text-center pt-2">
+                                <a class="btn rounded-pill border px-5 text-orange-1 label-b">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-5">&nbsp;</div>
+        <div class="fixed-bottom  px-2 pb-3" onclick="location.href='review-order.html'">
+            <div class="bot-order py-2">
+                <div class="d-flex bd-highlight title-3 text-white">
+                    <div class="p-2 bd-highlight ps-4 ">
+                        My Order <span class="total-orders">0</span>
+                    </div>
+                    <div class="ms-auto p-2 bd-highlight pe-4">
+                        Rp <span class="total-amount">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
