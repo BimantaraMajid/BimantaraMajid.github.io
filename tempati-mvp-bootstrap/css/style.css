@@ -19,6 +19,7 @@
 .text-success-1 {
     color: var(--success-1);
 }
+
 .bg-brand-color {
     background-color: var(--brand-color);
 }
@@ -95,7 +96,7 @@ body {
     font-size: 14px;
 }
 
-.form-label{
+.form-label {
     color: var(--black-2);
 }
 
@@ -191,21 +192,30 @@ a {
 
 }
 
-.radius-12{
+.radius-12 {
     border-radius: 12px;
 
 }
 
-.list-group-item{
+.list-group-item {
     background-color: transparent;
     border: 0;
 }
 
 .swal2-modal,
-.swal2-actions button{
+.swal2-actions button {
     border-radius: 12px !important;
 }
 
-.swal2-actions{
-    margin:0;
+.swal2-actions {
+    margin: 0;
+}
+
+.swal2-icon {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.swal2-title{
+    padding-top: 0;
 }
