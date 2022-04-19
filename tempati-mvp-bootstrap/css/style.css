@@ -200,3 +200,12 @@ a {
     background-color: transparent;
     border: 0;
 }
+
+.swal2-modal,
+.swal2-actions button{
+    border-radius: 12px !important;
+}
+
+.swal2-actions{
+    margin:0;
+}

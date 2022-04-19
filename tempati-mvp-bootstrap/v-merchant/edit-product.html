@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Tempati</title>
 </head>
@@ -48,13 +50,14 @@
 
                     <div class="pt-5 text-center d-grid gap-2">
                         <button class="btn btn-primary bg-brand-color label-m b0">Confirm Change</button>
-                        <button class="btn btn-outline-danger border border-danger label-m b0">Delete Product</button>
+                        <div class="btn btn-outline-danger border border-danger label-m b0" onclick="delete_product();">Delete Product</div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 
+    <script src="../js/delete-product.js"></script>
 </body>
 
 </html>
