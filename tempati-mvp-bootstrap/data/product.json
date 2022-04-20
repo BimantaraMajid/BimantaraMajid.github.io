@@ -1,0 +1,58 @@
+[
+    {
+        "product_id" : 1,
+        "product_name" : "Nasi Ayam Geprek",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://www.bing.com/th?id=AMMS_7c64d797d32c4912e93b02e5ad8c163b&w=235&h=183&c=8&rs=1&o=5&dpr=1.25&pid=3.1&rm=2",
+        "price" : 15000
+    },
+    {
+        "product_id" : 2,
+        "product_name" : "Nasi Ayam Penyet",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://www.bing.com/th?id=OIP.tVxYkaor2TtbHHNUCRdpOQHaE9&w=141&h=94&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "price" : 14000
+    },
+    {
+        "product_id" : 3,
+        "product_name" : "Mie Geprek Sambal Hijau",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://www.bing.com/th?id=OIP.7sAphialAecyJlbgh0-FAAHaFP&w=224&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "price" : 14000
+    },
+    {
+        "product_id" : 4,
+        "product_name" : "Tahu Tempe Penyet",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://th.bing.com/th/id/OIP.9hEKYAA-9NM_KVjxrn3c1QHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "price" : 10000
+    },
+    {
+        "product_id" : 5,
+        "product_name" : "Teh Manis",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://th.bing.com/th/id/OIP.IRXwDqnGPGiyAKAkBmPEVgHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "price" : 4000
+    },
+    {
+        "product_id" : 6,
+        "product_name" : "Jeruk Manis",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://th.bing.com/th/id/OIP.joyfqdJhB9LWhsXNyXMigQHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "price" : 5000
+    },
+    {
+        "product_id" : 7,
+        "product_name" : "Kopi Susu",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://th.bing.com/th/id/OIP.1Y4OY3bHUBe8VubzyxPNQAHaFJ?w=283&h=197&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "price" : 5000
+    },
+    {
+        "product_id" : 8,
+        "product_name" : "Jus Buah",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae id, minima animi nihil porro velit neque doloribus at aut.",
+        "image" : "https://th.bing.com/th/id/OIP.rbRNU1E-LfOeFS_cw0oisAHaFj?w=215&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        "price" : 8000
+    }
+]

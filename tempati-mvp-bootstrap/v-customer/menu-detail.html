@@ -13,52 +13,53 @@
 
 <body class="bg-light">
 
-    <div class=" container px-0">
-        <div class="sticky-top bg-white  shadow-sm py-3 px-3">
-            <a href="../v-customer/" class="text-black-1">
-                <img src="../img/icon-left-arrow.svg" style="filter: invert();">
-                <span class="title-2 px-2 align-middle">Product</span>
-            </a>
+    <div class="sticky-top bg-white  shadow-sm py-3 px-3">
+        <a href="../v-customer/" class="text-black-1">
+            <img src="../img/icon-left-arrow.svg" style="filter: invert();">
+            <span class="title-2 px-2 align-middle">Product</span>
+        </a>
+    </div>
+    <div class="pb-5 row pt-3">
+        <div class="col-12" id="product-image">
+            <div class="animated-background" style="height: 248px; width: 100%;"></div>
         </div>
-        <div class="pb-5 ">
-            <div class="row pt-3">
-                <div class="col-12">
-                    <img src="../img/food.jpg" alt="food" class="img-fit radius-12">
-                </div>
-                <div class="col-12 title-3 pt-2">
-                    Nasi ayam geprek
-                </div>
-                <div class="col-12 label-r pt-2">
-                    Kalau ada deskripsi produk akan ditampilakan disini, dibawah nama
-                </div>
-                <div class="col-12 title-2 pt-2">
-                    <div class="d-flex bd-highlight">
-                        <div class="py-2 bd-highlight">
-                            Rp 14.000
-                        </div>
-                        <div class="ms-auto bd-highlight pe-3">
-                            <a class="btn rounded-pill border px-4 text-orange-1 label-b">Add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 pt-4">
-                    <label for="note" class="form-label title-3">Add Note</label>
-                    <div class="form-floating">
-                        <textarea class="form-control" id="note" style="height: 100px;"></textarea>
-                    </div>
-                </div>
+        <div class="col-12 title-3 pt-2" id="product-name">
+            <span class="animated-background">Nasi ayam geprek</span>
+        </div>
+        <div class="col-12 label-r pt-2" id="product-description">
+            <span class="animated-background">Kalau ada deskripsi produk akan ditampilakan disini</span>
+        </div>
+        <div class="col-12 title-2 pt-2">
+            <div class="d-flex bd-highlight">
+                <div class="py-2 bd-highlight" id="product-price">
 
+                    <span class="animated-background">Rp 14.000</span>
+
+                </div>
+                <div class="ms-auto bd-highlight pe-3 text-end" id="action-add">
+                    <div class="btn rounded-pill border px-4 text-orange-1 label-b" onclick="add_food();">
+                        Add
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="row pb-5">&nbsp;</div>
-        <div class="fixed-bottom  px-2 pb-3">
-            <div class="d-grid gap-2">
-                <a class="btn btn-primary bg-brand-color label-m" >Add to card</a>
+        <div class="col-12 pt-4">
+            <label for="note" class="form-label title-3">Add Note</label>
+            <div class="form-floating">
+                <textarea class="form-control" id="note" style="height: 100px;"></textarea>
             </div>
         </div>
     </div>
+    <div class="pb-5">&nbsp;</div>
+    <div class="fixed-bottom  px-2 pb-3">
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary bg-brand-color label-m" id="btn-add-to-cart" onclick="add_to_cart();" disabled>
+                Add to cart
+            </button>
+        </div>
+    </div>
 
+    <script src="../js/menu-detail.js"></script>
 </body>
 
 </html>

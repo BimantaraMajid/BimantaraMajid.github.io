@@ -12,65 +12,65 @@
 </head>
 
 <body class="bg-light">
+    <div class="sticky-top bg-white shadow-sm py-3 px-2">
+        <span class="title-2 px-2" id="merchat-name">
+            <span class="animated-background px-5">&nbsp;</span>
+        </span>
+    </div>
 
-    <div class=" container px-0">
-        <div class="sticky-top bg-white shadow-sm py-3 px-2">
-            <span class="title-2 px-2">Merchant Name</span>
-        </div>
-        <div class="pb-5 ">
-
-            <div class="col-12 text-center text-grey-2 p-3">
-                Select your menu
-            </div>
-            <div class="row ">
-                <div class="col-6">
-                    <div class="card radius-12" style="width: 100%;">
-                        <div class="header-img" style="height: 120px;">
-                            <img src="../img/food.jpg" class="card-img-top img-fit" alt="food"
-                            onclick="location.href='menu-detail.html'">
-                        </div>
-                        <div class="card-body">
-                            <div class="label-r">Nasi ayam geprek</div>
-                            <div class="title-2">Rp 15.000</div>
-                            <div class="text-center pt-2">
-                                <a class="btn rounded-pill border px-5 text-orange-1 label-b" onclick="location.href='menu-detail.html'">Add</a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="col-12 text-center text-grey-2 p-3 pb-1">
+        Select your menu
+    </div>
+    <div class="row " id="list-product">
+        <div class="col-6 p-2">
+            <div class="card radius-12" style="width: 100%;">
+                <div class="header-img  animated-background" style="height: 120px;">
                 </div>
-                <div class="col-6">
-                    <div class="card radius-12" style="width: 100%;">
-                        <div class="header-img" style="height: 120px;">
-                            <img src="../img/food2.jpg" class="card-img-top img-fit" alt="food"
-                            onclick="location.href='menu-detail.html'">
-                        </div>
-                        <div class="card-body">
-                            <div class="label-r">Nasi ayam geprek</div>
-                            <div class="title-2">Rp 15.000</div>
-                            <div class="text-center pt-2">
-                                <a class="btn rounded-pill border px-5 text-orange-1 label-b" onclick="location.href='menu-detail.html'">Add</a>
-                            </div>
-                        </div>
+                <div class="card-body">
+                    <div class="label-r  animated-background">loading...</div>
+                    <div class="title-2 pt-1">
+                        <span class=" mt-2 animated-background">Loading...</span>
+                    </div>
+                    <div class="text-center pt-2">
+                        <div class="btn animated-background px-5 rounded-pill">Add</div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row pb-5">&nbsp;</div>
-        <div class="fixed-bottom  px-2 pb-3" onclick="location.href='review-order.html'">
-            <div class="bot-order py-2">
-                <div class="d-flex bd-highlight title-3 text-white">
-                    <div class="p-2 bd-highlight ps-4 ">
-                        My Order <span class="total-orders">0</span>
+        <div class="col-6 p-2">
+            <div class="card radius-12" style="width: 100%;">
+                <div class="header-img animated-background" style="height: 120px;">
+                </div>
+                <div class="card-body">
+                    <div class="label-r animated-background">loading...</div>
+                    <div class="title-2 pt-1 ">
+                        <span class=" mt-2 animated-background">Loading...</span>
                     </div>
-                    <div class="ms-auto p-2 bd-highlight pe-4">
-                        Rp <span class="total-amount">0</span>
+                    <div class="text-center pt-2">
+                        <div class="btn animated-background px-5 rounded-pill">Add</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="row pb-5">&nbsp;</div>
+    <div class="row pb-5">&nbsp;</div>
+
+    <div class="fixed-bottom  px-2 pb-3" id="btn-order">
+        <div class="bot-order py-2">
+            <div class="d-flex bd-highlight title-3 text-white">
+                <div class="p-2 bd-highlight ps-4 ">
+                    My Order <span id="total-orders">0</span>
+                </div>
+                <div class="ms-auto p-2 bd-highlight pe-4">
+                    Rp <span id="total-amount">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/product.js"></script>
 </body>
 
 </html>

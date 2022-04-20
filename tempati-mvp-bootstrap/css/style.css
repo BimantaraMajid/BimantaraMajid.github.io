@@ -2,6 +2,7 @@
 
 :root {
     --grey-4: #F3F5F6;
+    --grey-3: #E9ECEF;
     --grey-2: #ADB5BD;
     --bg-light: #F8F9FA;
     --brand-color: #0F87FF;
@@ -34,6 +35,14 @@
 
 .text-orange-1 {
     color: var(--orange-1);
+}
+
+.bg-grey-3 {
+    background-color: var(--grey-3);
+}
+
+.text-grey-3 {
+    color: var(--grey-3);
 }
 
 .bg-grey-4 {
@@ -82,9 +91,33 @@ body {
     margin: 0 !important;
 }
 
+hr {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus,
+a:active,
+a:hover {
+    color: none;
+}
+
+textarea{
+    background-color: var(--grey-3) !important;
+}
+
 .btn {
     height: 40px;
     border-radius: 12px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active{
+    color: none;
 }
 
 .form-control {
@@ -94,6 +127,11 @@ body {
     height: 40px;
     font-weight: 400;
     font-size: 14px;
+}
+
+.form-floating>.form-control:focus,
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1rem;
 }
 
 .form-label {
@@ -154,18 +192,10 @@ body {
     border: none;
 }
 
-hr {
-    background-color: grey;
-}
-
 .box-90 {
     width: 90px;
     height: 90px;
     background-color: grey;
-}
-
-a {
-    text-decoration: none;
 }
 
 .bot-order {
@@ -216,6 +246,24 @@ a {
     margin-bottom: 1rem;
 }
 
-.swal2-title{
+.swal2-title {
     padding-top: 0;
+}
+
+.animated-background {
+    animation: shine-avatar 5s infinite linear;
+    /* animation: 1s linear 1s infinite alternate slidein; */
+    color: transparent;
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 68px, #ddd 80px);
+    border-radius: 12px;
+}
+
+@keyframes shine-avatar {
+    0% {
+        background-position: -100px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
 }

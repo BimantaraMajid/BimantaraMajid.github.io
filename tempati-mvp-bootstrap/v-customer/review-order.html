@@ -13,111 +13,106 @@
 
 <body class="bg-light">
 
-    <div class=" container px-0">
-        <div class="sticky-top bg-white  shadow-sm py-3 px-3">
-            <a href="../v-customer" class="text-black-1">
-                <img src="../img/icon-left-arrow.svg" style="filter: invert();">
-                <span class="title-2 px-2 align-middle">Review order</span>
-            </a>
+    <div class="sticky-top bg-white  shadow-sm py-3 px-3">
+        <a href="../v-customer" class="text-black-1">
+            <img src="../img/icon-left-arrow.svg" style="filter: invert();">
+            <span class="title-2 px-2 align-middle">Review order</span>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-12 pt-2">
+            <div class="mb-3">
+                <label for="table-number" class="form-label label-m">Table number </label>
+                <input type="text" class="form-control" id="table-number" placeholder="01 / No.01" required>
+            </div>
+            <div class="mb-3">
+                <label for="customer-name" class="form-label label-m">Your name (optional) </label>
+                <input type="text" class="form-control" id="customer-name" placeholder="ex. Boby" required>
+            </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 pt-2">
-                <div class="mb-3">
-                    <label for="table-number" class="form-label label-m">Table number </label>
-                    <input type="text" class="form-control" id="table-number" placeholder="01 / No.01" required>
+        <div class="col-12">
+            <div class="title-2 text-black-2">Order list</div>
+            <div class="card radius-12 bg-white py-2 border border-light" style="width: 100%;">
+                <ul class="list-group list-group-flush" id="order-list">
+                    <li class="list-group-item">
+                        <div class="row text-black-2">
+                            <div class="col-3 p-0">
+                                <div src="" class="img-fit radius-12 animated-background" style="width: 70px; height: 70px;"></div>
+                            </div>
+                            <div class="col-9 p-0">
+                                <div class="label-m animated-background mb-1">Nasi bakar bonbon extra pedas</div>
+                                <div class="label-r animated-background mb-1">Note: tanpa sayur</div>
+                                <div class="label-m animated-background mb-1">Rp 16.000 <span>x</span> <span class="count">2</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <hr class="p-0 m-0">
+                    <li class="list-group-item">
+                        <div class="row text-black-2">
+                            <div class="col-3 p-0">
+                                <div src="" class="img-fit radius-12 animated-background" style="width: 70px; height: 70px;"></div>
+                            </div>
+                            <div class="col-9 p-0">
+                                <div class="label-m animated-background mb-1">Nasi bakar bonbon extra pedas</div>
+                                <div class="label-r animated-background mb-1">Note: tanpa sayur</div>
+                                <div class="label-m animated-background mb-1">Rp 16.000 <span>x</span> <span class="count">2</span></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-12 pt-4">
+            <div class="title-2 text-black-2">Payment summary</div>
+            <hr class="p-0 m-0">
+            <div class="d-flex bd-highlight label-r text-black-2">
+                <div class="p-2 bd-highlight ps-1 ">
+                    Subtotal <br>
+                    PPn 11% <br>
+                    Order fee
                 </div>
-                <div class="mb-3">
-                    <label for="customer-name" class="form-label label-m">Your name (optional) </label>
-                    <input type="text" class="form-control" id="customer-name" placeholder="ex. Boby" required>
+                <div class="ms-auto p-2 bd-highlight pe-1 text-end">
+                    <span  id="sub-total"> - </span><br>
+                    <span  id="ppn-11"> - </span><br>
+                    <span  id="order-fee"> - </span>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="title-2 text-black-2">Order list</div>
-                <div class="card radius-12 bg-white py-2 border border-light" style="width: 100%;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="row text-black-2">
-                                <div class="col-3 p-0">
-                                    <img src="../img/food.jpg" class="img-fit radius-12"
-                                        style="width: 70px; height: 70px;">
-                                </div>
-                                <div class="col-9 p-0">
-                                    <div class="label-m">Nasi bakar bonbon extra pedas</div>
-                                    <div class="label-r">Note: tanpa sayur</div>
-                                    <div class="label-m">Rp 16.000 <span>x</span> <span class="count">2</span></div>
-                                </div>
-                            </div>
-                        </li>
-                        <hr class="p-0 m-0">
-                        <li class="list-group-item">
-                            <div class="row text-black-2">
-                                <div class="col-3 p-0">
-                                    <img src="../img/food.jpg" class="img-fit radius-12"
-                                        style="width: 70px; height: 70px;">
-                                </div>
-                                <div class="col-9 p-0">
-                                    <div class="label-m">Nasi bakar bonbon extra pedas</div>
-                                    <div class="label-r">Note: tanpa sayur</div>
-                                    <div class="label-m">Rp 16.000 <span>x</span> <span class="count">2</span></div>
-                                </div>
-                            </div>
-                        </li>
+        </div>
 
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-12 pt-4">
-                <div class="title-2 text-black-2">Payment summary</div>
-                <hr class="p-0 m-0">
+        <div class="col-12 p-3 pt-1">
+            <div class="border radius-12 p-4 py-3">
                 <div class="d-flex bd-highlight label-r text-black-2">
                     <div class="p-2 bd-highlight ps-1 ">
-                        Subtotal <br>
-                        PPn 11% <br>
-                        Order fee
+                        <img src="../img/icon-dana.svg" alt="payment-method">
                     </div>
                     <div class="ms-auto p-2 bd-highlight pe-1 text-end">
-                        <span class="total-amount">72.900</span><br>
-                        <span>7.920</span><br>
-                        <span>1.000</span>
+                        <a href="" class="text-brand-color label-m">Change</a>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 p-3 pt-1">
-                <div class="border radius-12 p-4 py-3">
-                    <div class="d-flex bd-highlight label-r text-black-2">
-                        <div class="p-2 bd-highlight ps-1 ">
-                            <img src="../img/icon-dana.svg" alt="payment-method">
-                        </div>
-                        <div class="ms-auto p-2 bd-highlight pe-1 text-end">
-                            <a href="" class="text-brand-color label-m">Change</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row pb-5">&nbsp;</div>
-        <div class="row pb-5">&nbsp;</div>
-        <div class="fixed-bottom bg-light border border-bottom-0 px-2 pb-1" onclick="location.href='review-order.html'">
-            <div class="py-2">
-                <div class="d-flex bd-highlight title-3 text-black-1">
-                    <div class="p-2 bd-highlight ps-2 ">
-                        Total
-                    </div>
-                    <div class="ms-auto p-2 bd-highlight pe-2">
-                        <span class="total-amount">79.920</span>
-                    </div>
-                </div>
-                <div class="d-grid gap-2">
-                    <button class="btn btn-success border rounded-pill bg-success-1">Let's Pay</button>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row pb-5">&nbsp;</div>
+    <div class="row pb-5">&nbsp;</div>
+    <div class="fixed-bottom bg-light border border-bottom-0 px-2 pb-1" onclick="location.href='review-order.html'">
+        <div class="py-2">
+            <div class="d-flex bd-highlight title-3 text-black-1">
+                <div class="p-2 bd-highlight ps-2 ">
+                    Total
+                </div>
+                <div class="ms-auto p-2 bd-highlight pe-2">
+                    <span id="total-amount">79.920</span>
+                </div>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-success border rounded-pill bg-success-1">Let's Pay</button>
+            </div>
+        </div>
+    </div>
 
+    <script src="../js/review-order.js"></script>
 </body>
 
 </html>
