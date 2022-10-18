@@ -7,5 +7,4 @@ Professional with a Bachelor's Degree in **Informatics Engineering** from the **
 Visit me at [LinkedIn](https://www.linkedin.com/in/bimantara-m-88b3a7206/)
 
 ### Certification
-- [Memulai Pemrograman Dengan Python](https://www.dicoding.com/certificates/1OP8LQ0EVZQK/)
-- [Belajar Dasar Pemrograman JavaScript](https://www.dicoding.com/certificates/KEXL3OE54PG2/)
+- [Dicoding Academy](https://www.dicoding.com/users/bimantarasc/academies)
